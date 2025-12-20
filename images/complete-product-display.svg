@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f5f5dc"/>
+  
+  <!-- Top Left Wooden Box -->
+  <rect x="50" y="50" width="200" height="150" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="60" y="60" width="180" height="130" fill="#D2691E" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Tea Sachets in Top Box -->
+  <rect x="70" y="70" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="100" y="70" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="130" y="70" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="160" y="70" width="25" height="35" fill="#32CD32" rx="3"/>
+  <rect x="190" y="70" width="25" height="35" fill="#000000" rx="3"/>
+  <rect x="70" y="110" width="25" height="35" fill="#C0C0C0" rx="3"/>
+  <rect x="100" y="110" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="130" y="110" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="160" y="110" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="190" y="110" width="25" height="35" fill="#32CD32" rx="3"/>
+  
+  <!-- Top Row Individual Sachets -->
+  <rect x="300" y="50" width="30" height="40" fill="#4169E1" rx="3"/>
+  <text x="315" y="75" text-anchor="middle" font-size="8" fill="white" font-family="Arial">TURMERIC</text>
+  
+  <rect x="350" y="50" width="30" height="40" fill="#FFD700" rx="3"/>
+  <text x="365" y="75" text-anchor="middle" font-size="8" fill="black" font-family="Arial">GINGER</text>
+  
+  <rect x="400" y="50" width="30" height="40" fill="#32CD32" rx="3"/>
+  <text x="415" y="75" text-anchor="middle" font-size="8" fill="white" font-family="Arial">OREGANO</text>
+  
+  <!-- Fruit Jam Jar (Top Right) -->
+  <rect x="700" y="50" width="150" height="200" fill="#F0F8FF" stroke="#87CEEB" stroke-width="3" rx="15"/>
+  <rect x="710" y="60" width="130" height="180" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="10"/>
+  
+  <!-- Jar Lid -->
+  <rect x="690" y="40" width="170" height="25" fill="#DAA520" stroke="#B8860B" stroke-width="2" rx="12"/>
+  
+  <!-- Jam Content -->
+  <ellipse cx="775" cy="150" rx="50" ry="70" fill="#FFA500"/>
+  <ellipse cx="775" cy="150" rx="35" ry="50" fill="#FF8C00"/>
+  
+  <!-- Branding Tag on Jar -->
+  <rect x="680" y="20" width="140" height="60" fill="white" stroke="#FF8C00" stroke-width="2" rx="5"/>
+  <text x="750" y="40" text-anchor="middle" font-size="14" fill="#FF8C00" font-family="Arial" font-weight="bold">GINGER FARMS</text>
+  <text x="750" y="55" text-anchor="middle" font-size="12" fill="#FF8C00" font-family="Arial" font-weight="bold">MARKET</text>
+  
+  <!-- Bottom Wooden Box -->
+  <rect x="50" y="300" width="200" height="150" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="60" y="310" width="180" height="130" fill="#D2691E" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Tea Sachets in Bottom Box -->
+  <rect x="70" y="320" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="100" y="320" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="130" y="320" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="160" y="320" width="25" height="35" fill="#32CD32" rx="3"/>
+  <rect x="190" y="320" width="25" height="35" fill="#000000" rx="3"/>
+  <rect x="70" y="360" width="25" height="35" fill="#C0C0C0" rx="3"/>
+  <rect x="100" y="360" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="130" y="360" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="160" y="360" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="190" y="360" width="25" height="35" fill="#32CD32" rx="3"/>
+  
+  <!-- Bottom Row Individual Sachets -->
+  <rect x="300" y="350" width="30" height="40" fill="#FFD700" rx="3"/>
+  <text x="315" y="375" text-anchor="middle" font-size="8" fill="black" font-family="Arial">GINGER</text>
+  
+  <rect x="350" y="350" width="30" height="40" fill="#FF69B4" rx="3"/>
+  <text x="365" y="375" text-anchor="middle" font-size="8" fill="white" font-family="Arial">MORINGA</text>
+  
+  <rect x="400" y="350" width="30" height="40" fill="#4169E1" rx="3"/>
+  <text x="415" y="375" text-anchor="middle" font-size="8" fill="white" font-family="Arial">TURMERIC</text>
+  
+  <rect x="450" y="350" width="30" height="40" fill="#32CD32" rx="3"/>
+  <text x="465" y="375" text-anchor="middle" font-size="8" fill="white" font-family="Arial">OREGANO</text>
+  
+  <rect x="500" y="350" width="30" height="40" fill="#000000" rx="3"/>
+  <text x="515" y="375" text-anchor="middle" font-size="8" fill="white" font-family="Arial">HONEY</text>
+  
+  <rect x="550" y="350" width="30" height="40" fill="#C0C0C0" rx="3"/>
+  <text x="565" y="375" text-anchor="middle" font-size="8" fill="black" font-family="Arial">TURMERIC</text>
+  
+  <!-- Ginger Farms Logo -->
+  <circle cx="800" cy="400" r="40" fill="#FF8C00"/>
+  <text x="800" y="410" text-anchor="middle" font-size="20" fill="white" font-family="Arial" font-weight="bold">GF</text>
+  
+  <!-- Main Title -->
+  <text x="500" y="550" text-anchor="middle" font-size="32" fill="#8B4513" font-family="Arial" font-weight="bold">Ginger Farms Product Collection</text>
+  
+  <!-- Subtitle -->
+  <text x="500" y="580" text-anchor="middle" font-size="18" fill="#654321" font-family="Arial">Premium Herbal Teas & Natural Products</text>
+  
+  <!-- Product Categories -->
+  <text x="500" y="620" text-anchor="middle" font-size="16" fill="#8B4513" font-family="Arial">Herbal Tea Collection • Fruit Jams • Natural Supplements</text>
+  
+  <!-- Contact Info -->
+  <text x="500" y="650" text-anchor="middle" font-size="14" fill="#FF8C00" font-family="Arial" font-weight="bold">gingerfarms.ph</text>
+</svg>
+
+

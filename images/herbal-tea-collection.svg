@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5dc"/>
+  
+  <!-- Wooden Box 1 (Top Left) -->
+  <rect x="50" y="50" width="200" height="150" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="60" y="60" width="180" height="130" fill="#D2691E" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Tea Sachets in Box 1 -->
+  <rect x="70" y="70" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="100" y="70" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="130" y="70" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="160" y="70" width="25" height="35" fill="#32CD32" rx="3"/>
+  <rect x="190" y="70" width="25" height="35" fill="#000000" rx="3"/>
+  <rect x="70" y="110" width="25" height="35" fill="#C0C0C0" rx="3"/>
+  <rect x="100" y="110" width="25" height="35" fill="#FFD700" rx="3"/>
+  <rect x="130" y="110" width="25" height="35" fill="#FF69B4" rx="3"/>
+  <rect x="160" y="110" width="25" height="35" fill="#4169E1" rx="3"/>
+  <rect x="190" y="110" width="25" height="35" fill="#32CD32" rx="3"/>
+  
+  <!-- Individual Tea Sachets Display (Top) -->
+  <rect x="300" y="50" width="30" height="40" fill="#4169E1" rx="3"/>
+  <text x="315" y="75" text-anchor="middle" font-size="8" fill="white" font-family="Arial">TURMERIC</text>
+  
+  <rect x="350" y="50" width="30" height="40" fill="#FFD700" rx="3"/>
+  <text x="365" y="75" text-anchor="middle" font-size="8" fill="black" font-family="Arial">GINGER</text>
+  
+  <rect x="400" y="50" width="30" height="40" fill="#32CD32" rx="3"/>
+  <text x="415" y="75" text-anchor="middle" font-size="8" fill="white" font-family="Arial">OREGANO</text>
+  
+  <!-- Individual Tea Sachets Display (Bottom) -->
+  <rect x="300" y="100" width="30" height="40" fill="#C0C0C0" rx="3"/>
+  <text x="315" y="125" text-anchor="middle" font-size="8" fill="black" font-family="Arial">TURMERIC</text>
+  
+  <rect x="350" y="100" width="30" height="40" fill="#FF69B4" rx="3"/>
+  <text x="365" y="125" text-anchor="middle" font-size="8" fill="white" font-family="Arial">MORINGA</text>
+  
+  <rect x="400" y="100" width="30" height="40" fill="#000000" rx="3"/>
+  <text x="415" y="125" text-anchor="middle" font-size="8" fill="white" font-family="Arial">HONEY</text>
+  
+  <!-- Ginger Farms Logo -->
+  <circle cx="500" cy="100" r="25" fill="#FF8C00"/>
+  <text x="500" y="105" text-anchor="middle" font-size="12" fill="white" font-family="Arial" font-weight="bold">GF</text>
+  
+  <!-- Title -->
+  <text x="400" y="200" text-anchor="middle" font-size="24" fill="#8B4513" font-family="Arial" font-weight="bold">Ginger Farms Herbal Tea Collection</text>
+  
+  <!-- Product Labels -->
+  <text x="400" y="230" text-anchor="middle" font-size="14" fill="#654321" font-family="Arial">Pure Ginger • Pure Turmeric • Ginger with Oregano</text>
+  <text x="400" y="250" text-anchor="middle" font-size="14" fill="#654321" font-family="Arial">Ginger with Moringa • Ginger with Honey • Ginger with Turmeric</text>
+</svg>
+
+
+
+
+

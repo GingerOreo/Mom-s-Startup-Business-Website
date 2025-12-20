@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f5f5dc"/>
+  
+  <!-- Wooden Shelf -->
+  <rect x="50" y="600" width="1100" height="40" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="60" y="610" width="1080" height="20" fill="#D2691E" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Large Green Banana Leaves (Top Corners) -->
+  <!-- Left Leaf -->
+  <ellipse cx="150" cy="100" rx="80" ry="120" fill="#228B22" opacity="0.8"/>
+  <ellipse cx="130" cy="80" rx="60" ry="90" fill="#32CD32" opacity="0.9"/>
+  
+  <!-- Right Leaf -->
+  <ellipse cx="1050" cy="100" rx="80" ry="120" fill="#228B22" opacity="0.8"/>
+  <ellipse cx="1070" cy="80" rx="60" ry="90" fill="#32CD32" opacity="0.9"/>
+  
+  <!-- GINGERFARMS MARKET Logo (Top Center) -->
+  <ellipse cx="600" cy="80" rx="200" ry="60" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <text x="600" y="75" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">GINGERFARMS MARKET</text>
+  <text x="600" y="95" text-anchor="middle" font-size="14" fill="white" font-family="Arial">Natural & Wholesome</text>
+  
+  <!-- Heart and Leaf Icons -->
+  <circle cx="520" cy="70" r="8" fill="#FFD700"/>
+  <ellipse cx="680" cy="70" rx="8" ry="12" fill="#32CD32"/>
+  
+  <!-- HERBAL TEAS (Left Side) -->
+  <!-- Pure Ginger Tea -->
+  <rect x="80" y="200" width="120" height="200" fill="#FFD700" rx="10"/>
+  <rect x="85" y="205" width="110" height="190" fill="#FFD700" rx="8"/>
+  <text x="140" y="230" text-anchor="middle" font-size="10" fill="brown" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="140" y="245" text-anchor="middle" font-size="9" fill="brown" font-family="Arial">HERBAL TEA</text>
+  <text x="140" y="260" text-anchor="middle" font-size="9" fill="brown" font-family="Arial">PURE GINGER</text>
+  <text x="140" y="275" text-anchor="middle" font-size="8" fill="brown" font-family="Arial">'Salabat'</text>
+  <text x="140" y="300" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">Traditional Comfort</text>
+  <text x="140" y="315" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">& Calming</text>
+  <text x="140" y="340" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">Caffeine Free</text>
+  
+  <!-- Ginger with Moringa Tea -->
+  <rect x="80" y="420" width="120" height="200" fill="#9370DB" rx="10"/>
+  <rect x="85" y="425" width="110" height="190" fill="#9370DB" rx="8"/>
+  <text x="140" y="450" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="140" y="465" text-anchor="middle" font-size="9" fill="white" font-family="Arial">HERBAL TEA</text>
+  <text x="140" y="480" text-anchor="middle" font-size="9" fill="white" font-family="Arial">GINGER with</text>
+  <text x="140" y="495" text-anchor="middle" font-size="9" fill="white" font-family="Arial">MORINGA</text>
+  <text x="140" y="520" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Energizing &</text>
+  <text x="140" y="535" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Nutrient-Rich</text>
+  <text x="140" y="560" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Caffeine Free</text>
+  
+  <!-- BANANA CHIPS (Middle Section) -->
+  <!-- Cinnamon Sugar -->
+  <rect x="250" y="200" width="120" height="200" fill="black" rx="10"/>
+  <rect x="255" y="205" width="110" height="190" fill="black" rx="8"/>
+  <text x="310" y="230" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="310" y="245" text-anchor="middle" font-size="9" fill="white" font-family="Arial">BANANA Chips</text>
+  <text x="310" y="260" text-anchor="middle" font-size="9" fill="white" font-family="Arial">CINNAMON</text>
+  <text x="310" y="275" text-anchor="middle" font-size="9" fill="white" font-family="Arial">SUGAR</text>
+  <text x="310" y="300" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Crispy Goodness</text>
+  <text x="310" y="315" text-anchor="middle" font-size="7" fill="white" font-family="Arial">from our farm</text>
+  <text x="310" y="330" text-anchor="middle" font-size="7" fill="white" font-family="Arial">for you!</text>
+  
+  <!-- Original -->
+  <rect x="250" y="420" width="120" height="200" fill="#8B4513" rx="10"/>
+  <rect x="255" y="425" width="110" height="190" fill="#8B4513" rx="8"/>
+  <text x="310" y="450" text-anchor="middle" font-size="10" fill="white" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="310" y="465" text-anchor="middle" font-size="9" fill="white" font-family="Arial">BANANA Chips</text>
+  <text x="310" y="480" text-anchor="middle" font-size="9" fill="white" font-family="Arial">ORIGINAL</text>
+  <text x="310" y="500" text-anchor="middle" font-size="7" fill="white" font-family="Arial">Crispy Goodness</text>
+  <text x="310" y="515" text-anchor="middle" font-size="7" fill="white" font-family="Arial">from our farm</text>
+  <text x="310" y="530" text-anchor="middle" font-size="7" fill="white" font-family="Arial">for you!</text>
+  
+  <!-- Herbs & Spices -->
+  <rect x="380" y="200" width="120" height="200" fill="white" rx="10"/>
+  <rect x="385" y="205" width="110" height="190" fill="white" rx="8"/>
+  <text x="440" y="230" text-anchor="middle" font-size="10" fill="black" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="440" y="245" text-anchor="middle" font-size="9" fill="black" font-family="Arial">BANANA Chips</text>
+  <text x="440" y="260" text-anchor="middle" font-size="9" fill="black" font-family="Arial">HERBS &</text>
+  <text x="440" y="275" text-anchor="middle" font-size="9" fill="black" font-family="Arial">SPICES</text>
+  <text x="440" y="300" text-anchor="middle" font-size="7" fill="black" font-family="Arial">Crispy Goodness</text>
+  <text x="440" y="315" text-anchor="middle" font-size="7" fill="black" font-family="Arial">from our farm</text>
+  <text x="440" y="330" text-anchor="middle" font-size="7" fill="black" font-family="Arial">for you!</text>
+  
+  <!-- Scattered Banana Chips -->
+  <ellipse cx="320" cy="450" rx="8" ry="4" fill="#DAA520"/>
+  <ellipse cx="340" cy="460" rx="6" ry="3" fill="#DAA520"/>
+  <ellipse cx="360" cy="445" rx="7" ry="4" fill="#DAA520"/>
+  <ellipse cx="335" cy="475" rx="5" ry="3" fill="#DAA520"/>
+  <ellipse cx="355" cy="470" rx="6" ry="3" fill="#DAA520"/>
+  
+  <!-- FRUIT IN JAR (Front Middle) -->
+  <!-- Classics Jar -->
+  <rect x="520" y="350" width="80" height="120" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2" rx="10"/>
+  <rect x="525" y="355" width="70" height="110" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="8"/>
+  <rect x="510" y="340" width="100" height="20" fill="#8B4513" stroke="#654321" stroke-width="1" rx="10"/>
+  <text x="560" y="390" text-anchor="middle" font-size="8" fill="brown" font-family="Arial" font-weight="bold">AMADELLA</text>
+  <text x="560" y="405" text-anchor="middle" font-size="8" fill="brown" font-family="Arial">FRUIT in JAR</text>
+  <text x="560" y="420" text-anchor="middle" font-size="8" fill="brown" font-family="Arial">CLASSICS</text>
+  
+  <!-- Specials Jar -->
+  <rect x="620" y="350" width="80" height="120" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2" rx="10"/>
+  <rect x="625" y="355" width="70" height="110" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="8"/>
+  <rect x="610" y="340" width="100" height="20" fill="#8B4513" stroke="#654321" stroke-width="1" rx="10"/>
+  <text x="660" y="390" text-anchor="middle" font-size="8" fill="brown" font-family="Arial" font-weight="bold">AMADELLA</text>
+  <text x="660" y="405" text-anchor="middle" font-size="8" fill="brown" font-family="Arial">FRUIT in JAR</text>
+  <text x="660" y="420" text-anchor="middle" font-size="8" fill="brown" font-family="Arial">SPECIALS</text>
+  
+  <!-- COCONUT PRODUCTS (Right Side) -->
+  <!-- Organic Coconut Sap Vinegar -->
+  <rect x="800" y="200" width="80" height="200" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2" rx="5"/>
+  <rect x="805" y="205" width="70" height="190" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="3"/>
+  <rect x="790" y="190" width="100" height="20" fill="#8B4513" stroke="#654321" stroke-width="1" rx="10"/>
+  <text x="840" y="230" text-anchor="middle" font-size="8" fill="brown" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="840" y="245" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">ORGANIC</text>
+  <text x="840" y="260" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">COCONUT SAP</text>
+  <text x="840" y="275" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">VINEGAR</text>
+  <text x="840" y="300" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">PURE COCONUT</text>
+  <text x="840" y="315" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">NATURAL</text>
+  <text x="840" y="330" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">GOODNESS</text>
+  
+  <!-- Spicy Sarap-Angam -->
+  <rect x="900" y="200" width="80" height="200" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2" rx="5"/>
+  <rect x="905" y="205" width="70" height="190" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="3"/>
+  <rect x="890" y="190" width="100" height="20" fill="#8B4513" stroke="#654321" stroke-width="1" rx="10"/>
+  <text x="940" y="230" text-anchor="middle" font-size="8" fill="brown" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="940" y="245" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">SPICY</text>
+  <text x="940" y="260" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">SARAP-ANGHAM</text>
+  <text x="940" y="275" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">COCONUT SAP</text>
+  <text x="940" y="290" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">VINEGAR</text>
+  <text x="940" y="310" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">PURE COCONUT</text>
+  <text x="940" y="325" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">NATURAL</text>
+  <text x="940" y="340" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">GOODNESS</text>
+  
+  <!-- Coconut Cooking Oil -->
+  <rect x="1000" y="200" width="80" height="200" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2" rx="5"/>
+  <rect x="1005" y="205" width="70" height="190" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="3"/>
+  <rect x="990" y="190" width="100" height="20" fill="#8B4513" stroke="#654321" stroke-width="1" rx="10"/>
+  <text x="1040" y="230" text-anchor="middle" font-size="8" fill="brown" font-family="Arial" font-weight="bold">Ginger Farms</text>
+  <text x="1040" y="245" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">COCONUT</text>
+  <text x="1040" y="260" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">COOKING OIL</text>
+  <text x="1040" y="280" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">PURE COCONUT</text>
+  <text x="1040" y="295" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">NATURAL</text>
+  <text x="1040" y="310" text-anchor="middle" font-size="7" fill="brown" font-family="Arial">GOODNESS</text>
+  
+  <!-- Title -->
+  <text x="600" y="720" text-anchor="middle" font-size="24" fill="#8B4513" font-family="Arial" font-weight="bold">GingerFarms Market Product Showcase</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="750" text-anchor="middle" font-size="16" fill="#654321" font-family="Arial">Premium Natural Products • Farm Fresh • Traditional Quality</text>
+</svg>

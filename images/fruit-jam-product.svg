@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="800" fill="#f5f5dc"/>
+  
+  <!-- Glass Jar -->
+  <rect x="200" y="200" width="200" height="300" fill="#F0F8FF" stroke="#87CEEB" stroke-width="3" rx="20"/>
+  <rect x="210" y="210" width="180" height="280" fill="#F0F8FF" stroke="#87CEEB" stroke-width="1" rx="15"/>
+  
+  <!-- Jar Lid -->
+  <rect x="190" y="190" width="220" height="30" fill="#DAA520" stroke="#B8860B" stroke-width="2" rx="15"/>
+  <rect x="200" y="195" width="200" height="20" fill="#FFD700" stroke="#DAA520" stroke-width="1" rx="10"/>
+  
+  <!-- Fruit Jam Content -->
+  <ellipse cx="300" cy="350" rx="80" ry="120" fill="#FFA500"/>
+  <ellipse cx="300" cy="350" rx="60" ry="90" fill="#FF8C00"/>
+  <ellipse cx="300" cy="350" rx="40" ry="60" fill="#FF6347"/>
+  
+  <!-- Fruit Pieces -->
+  <circle cx="280" cy="330" r="8" fill="#FF4500"/>
+  <circle cx="320" cy="340" r="6" fill="#FF4500"/>
+  <circle cx="290" cy="380" r="7" fill="#FF4500"/>
+  <circle cx="310" cy="370" r="5" fill="#FF4500"/>
+  
+  <!-- Product Label on Jar -->
+  <rect x="220" y="280" width="160" height="60" fill="white" stroke="#87CEEB" stroke-width="2" rx="5"/>
+  <text x="300" y="300" text-anchor="middle" font-size="16" fill="#8B4513" font-family="Arial" font-weight="bold">SPECIALS</text>
+  <text x="300" y="320" text-anchor="middle" font-size="14" fill="#8B4513" font-family="Arial">FRUIT JAM</text>
+  
+  <!-- Branding Tag -->
+  <rect x="180" y="150" width="240" height="80" fill="white" stroke="#FF8C00" stroke-width="2" rx="5"/>
+  <text x="300" y="170" text-anchor="middle" font-size="18" fill="#FF8C00" font-family="Arial" font-weight="bold">GINGER FARMS MARKET</text>
+  
+  <!-- Product List -->
+  <text x="300" y="190" text-anchor="middle" font-size="12" fill="#654321" font-family="Arial">Pure Ginger • Pure Turmeric • Moringa</text>
+  <text x="300" y="205" text-anchor="middle" font-size="12" fill="#654321" font-family="Arial">Oregano • Honey • Salabat</text>
+  
+  <!-- QR Code Placeholder -->
+  <rect x="190" y="160" width="40" height="40" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <rect x="195" y="165" width="8" height="8" fill="black"/>
+  <rect x="207" y="165" width="8" height="8" fill="black"/>
+  <rect x="219" y="165" width="8" height="8" fill="black"/>
+  <rect x="195" y="177" width="8" height="8" fill="black"/>
+  <rect x="219" y="177" width="8" height="8" fill="black"/>
+  <rect x="195" y="189" width="8" height="8" fill="black"/>
+  <rect x="207" y="189" width="8" height="8" fill="black"/>
+  <rect x="219" y="189" width="8" height="8" fill="black"/>
+  
+  <!-- Contact Info -->
+  <text x="300" y="225" text-anchor="middle" font-size="14" fill="#FF8C00" font-family="Arial" font-weight="bold">gingerfarms.ph</text>
+  
+  <!-- Orange String -->
+  <line x1="300" y1="150" x2="300" y2="200" stroke="#FF8C00" stroke-width="3"/>
+  
+  <!-- Title -->
+  <text x="300" y="550" text-anchor="middle" font-size="24" fill="#8B4513" font-family="Arial" font-weight="bold">Ginger Farms Fruit Jam</text>
+  
+  <!-- Description -->
+  <text x="300" y="580" text-anchor="middle" font-size="16" fill="#654321" font-family="Arial">Premium Quality • Handcrafted • Natural Ingredients</text>
+</svg>
+
+
