@@ -611,23 +611,34 @@ a { text-decoration: none; }
     transform: scale(1);
 }
 
-/* Hover effect */
 a.brand__link:hover{
   background: var(--brand-hover-bg);
   transform: scale(.99);
 }
 
-/* Active (click) effect */
 a.brand__link:active{
   background: var(--brand-active-bg);
   transform: scale(1.1); /* small press-in effect */
   z-index: 999;
 }
 
+a.SmokedFish.brand__link:hover, a.MarinatedFish.brand__link:hover {
+  background-color: #acf7f7;
+  
+}
+
+a.SmokedFish.brand__link:active, a.MarinatedFish.brand__link:active {
+  background: #00FFFF;
+}
+
 a.brand__link.opened {
-  background: var(--brand-active-bg) !important; 
-  transform: scale(1) !important;
-  color: #000000 !important;
+  background: var(--brand-active-bg); 
+  transform: scale(1);
+  color: #000000;
+}
+
+a.brand__link.opened.SmokedFish, a.brand__link.opened.MarinatedFish {
+  background: #00FFFF;
 }
 
 .brand__logo{
