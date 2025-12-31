@@ -6,7 +6,7 @@ This is a website I'm building for my mom's food business. I'm currently a Grade
 - [x] CSS styling
 - [ ] Dynamic Content  
 - [ ] Contact form with backend
-- [ ] Product catalog
+- [~] Product catalog (I used Peddlr as external 3rd party for now while learning JavaScript)
 - [ ] Payment integration
 
 ## Tech Stack
