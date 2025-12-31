@@ -7,8 +7,44 @@
         <meta name="description" content="Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.">
         <title>Our Products - GingerFarms</title>
         <link rel="icon" href="images/AmabellaIcon.png" type="image/jpg">
+        <link rel="apple-touch-icon" href="images/AmabellaIcon.png">
+        <meta name="theme-color" content="#f19d23">
+
+        <!-- CANONICAL URL -->
+        <link rel="canonical" href="https://staging.gingerfarms.ph/Products.html">
+        
+        <!-- OPEN GRAPH (SOCIAL MEDIA) -->
+        <meta property="og:title" content="Our Products - GingerFarms">
+        <meta property="og:description" content="Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.">
+        <meta property="og:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta property="og:url" content="https://staging.gingerfarms.ph/Products.html">
+        <meta property="og:type" content="website">
+
+        <!-- TWITTER CARDS -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Our Products - GingerFarms">
+            <meta name="twitter:description" content="Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.">
+        <meta name="twitter:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+
+        <!-- STRUCTURED DATA (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Our Products - GingerFarms",
+        "description": "Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.",
+        "url": "https://staging.gingerfarms.ph/Products.html"
+        }
+        </script>
+        
+        <!--js script-->
+        <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js" defer></script>
+        <script src="main.js" defer></script>
+        <script src="scripts.js" defer></script>
+
         <!--css files-->
         <link rel="stylesheet" href="Properties.css" type="text/css">
+
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +75,7 @@
                     </section>
                 </li>
                 <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join Community</a></li>
-                <li id="order"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer">Order</a></li>
+                <li id="order"><a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
             </ul>
         </nav>
         <main>

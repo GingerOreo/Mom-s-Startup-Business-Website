@@ -7,8 +7,44 @@
         <meta name="description" content="Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.">
         <title>Herbal Tea Products - GingerFarms</title>
         <link rel="icon" href="../images/AmabellaIcon.png" type="image/jpg">
+        <link rel="apple-touch-icon" href="images/AmabellaIcon.png">
+        <meta name="theme-color" content="#f19d23">
+
+        <!-- CANONICAL URL -->
+        <link rel="canonical" href="https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html">
+        
+        <!-- OPEN GRAPH (SOCIAL MEDIA) -->
+        <meta property="og:title" content="Herbal Tea Products - GingerFarms">
+        <meta property="og:description" content="Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.">
+        <meta property="og:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta property="og:url" content="https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html">
+        <meta property="og:type" content="website">
+
+        <!-- TWITTER CARDS -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Herbal Tea Products - GingerFarms">
+        <meta name="twitter:description" content="Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.">
+        <meta name="twitter:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+
+        <!-- STRUCTURED DATA (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Herbal Tea Products - GingerFarms",
+        "description": "Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.",
+        "url": "https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html"
+        }
+        </script>
+        
+        <!--js script-->
+        <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js" defer></script>
+        <script src="main.js" defer></script>
+        <script src="scripts.js" defer></script>
+
         <!--css files-->
         <link rel="stylesheet" href="../Properties.css" type="text/css">
+
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +76,7 @@
                     </section>
                 </li>
                 <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join Community</a></li>
-                <li id="order"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer">Order</a></li>
+                <li id="order"><a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
             </ul>
         </nav>
         <main>
@@ -56,7 +92,7 @@
                 </section>
                 <article class="garamond gap2 bottomless w80 center">Experience the warmth and purity of our Signature Herbal Teas, made from freshly harvested ginger roots grown in Mt. Banahaw. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.</article>
                 <section class="column center">  
-                    <ul class="Iconless check garamond b">
+                    <ul class="Iconless check garamond b w80">
                         <li>No preservatives, no artificial colors</li>
                         <li>Locally grown and handcrafted</li>
                         <li>Available in 8g (Balanced Blend) and 10g (Full-strength) packs.</li>
@@ -64,7 +100,7 @@
                 </section>
                 <section id="FourMoreProducts" class="wFull gap2 topless">
                     <!--Coming Soon (175g in jars)-->
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/PureGinger.png" 
                              alt="Ginger Pure (Salabat) Tea" 
                              class="product-image">
@@ -74,7 +110,7 @@
                             <p class="product-subtitle italicText">Available in 8g and 10g</p>
                         </section>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/GingerWithHoney.png" 
                              alt="Ginger with Honey Tea" 
                              class="product-image">
@@ -84,17 +120,17 @@
                             <p class="product-subtitle italicText">Available in 8g and 10g</p>
                         </section>
                     </a>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
-                            <img src="../images/GingerWithMoringa.png" 
-                             alt="Ginger with Moringa Tea" 
-                             class="product-image">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                        <img src="../images/GingerWithMoringa.png" 
+                            alt="Ginger with Moringa Tea" 
+                            class="product-image">
                         <section class="product-content">
                             <h1 class="product-title">Ginger with Moringa</h1>
                             <p class="product-subtitle gap3 topless">A mix of ginger and malunggay (moringa) for immunity-boosting wellness and vitality.</p>
                             <p class="product-subtitle italicText">Available in 8g and 10g</p>
                         </section>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/GingerWithOregano.png" 
                              alt="Ginger with Oregano Tea" 
                              class="product-image">
@@ -104,7 +140,7 @@
                             <p class="product-subtitle italicText">Available in 8g and 10g</p>
                         </section>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/GingerWithTurmeric.png" 
                              alt="Pure Turmeric Tea" 
                              class="product-image">
@@ -114,7 +150,7 @@
                             <p class="product-subtitle italicText">Available in 8g and 10g</p>
                         </section>
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6omf9nynXff5MRSLBzhzUNZf2xQMTU9uNH1Pse-hl1VXOxg/viewform" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/PureTurmeric.png" 
                              alt="Lorem Ipsum" 
                              class="product-image">
