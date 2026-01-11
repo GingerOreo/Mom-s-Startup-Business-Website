@@ -63,7 +63,7 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../Gift Ideas.html">Gift Ideas</a></li>
                 <li><section class="dropdown">
-                        <button class="dropbtn OpenProductPage">Products</button>
+                        <button class="dropbtn OpenProductPage"><span class="w80 center">Our Products</span></button>
                         <section class="dropdown-content">
                             <a href="BananaChips.html">Banana Chips</a>
                             <a href="" class="opened">Fruit-in-a-jar</a>
@@ -75,8 +75,8 @@
                         </section>
                     </section>
                 </li>
-                <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join Community</a></li>
-                <li id="order"><a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
+                <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer"><span class="w80 center">Join Community</span></a></li>
+                <li id="order"><a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
             </ul>
         </nav>
         <main>
@@ -91,43 +91,86 @@
                     <section class="garamond boxed green gap3">No Preservatives</section>
                 </section>
                 <article class="garamond gap2 bottomless w80 center">Handmade in small batches using fresh, ripe fruits from our farm and partner farmers’ farms, no artificial preservatives - a thoughtful goodness in every spoonful.</article>
-                <section class="column center">  
-                    <ul class="Iconless check garamond b w80">
+                <section class="column center w80">  
+                    <ul class="Iconless check garamond b">
                         <li>Perfect for toast, yogurts, desserts, and cheese platters.</li>
                         <li>Great for pasalubong, giveaways, and heartfelt gifts.</li>
                     </ul>
                 </section>
-                <section id='SpecificProductList' class="Xlist wFull gap2 topless">
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                <section id='SpecificProductList' class="Xlist wFull gap2 topless jamsSelection">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/ClassicJars.png" 
                              alt="Fruits in a Jar - Classics" 
                              class="product-image">
                         <section class="product-content">
                             <article class="product-title">Classics</article>
+                            <hr class="gap3 topless">
                             <section class="column w75">
                                 <ul class="product-subtitle b">
                                     <li>Mango Jam</li>
                                     <li>Coconut Jam with Lime Zest</li>
                                     <li>Pineapple Jam</li>
-                                </ul>   
+                                    <!--135g is only for coconut; Add 250g price (Only available for pineapple)-->
+                                </ul>
                             </section>
-                            <p class=" gap3 bottomless product-subtitle italicText">Available in 120g glass jars</p>
+                            <section class="PriceXlist fourItems">
+                                <section class="price">
+                                    <p>₱170</p>
+                                    <hr>
+                                    <p>120g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱190</p>
+                                    <hr>
+                                    <p>135g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱210</p>
+                                    <hr>
+                                    <p>156g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱330</p>
+                                    <hr>
+                                    <p>250g</p>
+                                </section>
+                            </section>
+                            <p class=" gap3 bottomless product-subtitle italicText">Available in 120g, 135g (Coconut only), 156g (Mango and Pineapple only), 250g (Pineapple and Coconut only) glass jars</p>
                         </section>
                     </a>
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/SpecialJars.png" 
                              alt="Fruits in a Jar - Specialty Selection" 
                              class="product-image">
                         <section class="product-content">
                             <article class="product-title">Specialty Selection</article>
-                            <section class="column w75">
+                            <hr class="gap3 topless">
+                            <section class="column w100">
                                 <ul class="product-subtitle b">
                                     <li>Tropical Fruit Medley</li>
-                                    <li>Pineapple Mango with Honey & Mint Leaves</li>
+                                    <li class="ComingSoon">Pineapple Mango with Honey & Mint Leaves</li>
+                                    <li class="Iconless White hideMobile"> .</li>
                                     <!--Coming soon the Pineapple Mango bla bla-->
                                 </ul>   
                             </section>
-                            <p class="gap3 bottomless product-subtitle italicText">Available in 120g glass jars</p>
+                            <section class="PriceXlist threeItems">
+                                <section class="price">
+                                    <p>₱190</p>
+                                    <hr>
+                                    <p>120g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱235</p>
+                                    <hr>
+                                    <p>156g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱430</p>
+                                    <hr>
+                                    <p>306g</p>
+                                </section>
+                            </section>
+                            <p class="gap3 bottomless product-subtitle italicText">Available in 120g, 156g, 306g glass jars</p>
                         </section>
                     </a>
                 </section>
@@ -145,5 +188,8 @@
                     <a class="gap1 button" href="../Products.html">SHOP NOW</a>
                 </section>
         </footer>
+        <article class="garamond b copyright">
+            <h1>Copyright © 2026 GingerFarms. All rights reserved.</h1>
+        </article>
     </body>
 </html>

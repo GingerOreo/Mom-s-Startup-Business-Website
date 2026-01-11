@@ -39,8 +39,8 @@
         
         <!--js script-->
         <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js" defer></script>
-        <script src="main.js" defer></script>
-        <script src="scripts.js" defer></script>
+        <script src="../main.js" defer></script>
+        <script src="../scripts.js" defer></script>
 
         <!--css files-->
         <link rel="stylesheet" href="../Properties.css" type="text/css">
@@ -63,7 +63,7 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../Gift Ideas.html">Gift Ideas</a></li>
                 <li><section class="dropdown">
-                        <button class="dropbtn OpenProductPage">Products</button>
+                        <button class="dropbtn OpenProductPage"><span class="w80 center">Our Products</span></button>
                         <section class="dropdown-content">
                             <a href="" class="opened">Banana Chips</a>
                             <a href="FruitJars.html">Fruit-in-a-jar</a>
@@ -75,8 +75,8 @@
                         </section>
                     </section>
                 </li>
-                <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join Community</a></li>
-                <li id="order"><a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
+                <li id="join"><a href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer"><span class="w80 center">Join Community</span></a></li>
+                <li id="order"><a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer">Order</a></li>
             </ul>
         </nav>
         <main>
@@ -100,54 +100,169 @@
                         <li>Available in 30g, 80g, 100g, and 210g resealable packs.</li>
                     </ul>
                 </section>
-                <section id="FourMoreProducts" class="wFull gap2 topless">
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                <section id="FourMoreProducts" class="wFull gap2 topless needMoreSpace">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/Original.png" 
-                             alt="Banana Chips (30g, 80, 100g, 210g) - Original" 
-                             class="product-image">
+                            alt="Banana Chips (30g, 80, 100g, 210g) - Original" 
+                            class="product-image">
                         <section class="product-content">
                             <article class="product-title">Original</article>
-                            <p class="product-subtitle gap3 topless">Crisp, golden banana chips cooked in coconut oil. Naturally sweet, never greasy.</p>
+                            <hr>
+                            <p class="product-subtitle">Crisp, golden banana chips gently cooked in coconut oil. Naturally sweet, never greasy.</p>
+                            <section class="PriceXlist fourItems">
+                                <section class="price">
+                                    <p>₱30</p>
+                                    <hr>
+                                    <p>30g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱75</p>
+                                    <hr>
+                                    <p>80g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱89</p>
+                                    <hr>
+                                    <p>100g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱179</p>
+                                    <hr>
+                                    <p>210g</p>
+                                </section>
+                            </section>
                             <p class="product-subtitle italicText">Available in 30g, 80g, 100g, and 210g</p>
                         </section>
                     </a>
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/Herbs-and-Spices.png" 
                              alt="Banana Chips (30g, 80, 100g, 210g) - Herbs & Spices" 
                              class="product-image">
                         <section class="product-content">
                             <article class="product-title">Herbs & Spices</article>
-                            <p class="product-subtitle gap3 topless">Savory, aromatic, and infused with herbs and spices. Perfect for adventurous snacking.</p>
+                            <hr>
+                            <p class="product-subtitle">Savory, aromatic, and infused with herbs and spices. Perfect for adventurous snacking.</p>
+                            <section class="PriceXlist fourItems">
+                                <section class="price">
+                                    <p>₱35</p>
+                                    <hr>
+                                    <p>30g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱85</p>
+                                    <hr>
+                                    <p>80g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱99</p>
+                                    <hr>
+                                    <p>100g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱189</p>
+                                    <hr>
+                                    <p>210g</p>
+                                </section>
+                            </section>
                             <p class="product-subtitle italicText">Available in 30g, 80g, 100g, and 210g</p>
                         </section>
                     </a>
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/CinnamonSugar.png" 
                              alt="Banana Chips (30g, 80, 100g, 210g) - Cinnamon Sugar" 
                              class="product-image">
                         <section class="product-content">
                             <article class="product-title">Cinnamon Sugar</article>
-                            <p class="product-subtitle gap3 topless">Lightly dusted with fragrant cinnamon sugar. Warm, sweet, and deliciously addictive.</p>
+                            <hr>
+                            <p class="product-subtitle">Lightly dusted with fragrant cinnamon sugar. Warm, sweet, and deliciously addictive.</p>
+                            <section class="PriceXlist fourItems">
+                                <section class="price">
+                                    <p>₱40</p>
+                                    <hr>
+                                    <p>30g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱95</p>
+                                    <hr>
+                                    <p>80g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱109</p>
+                                    <hr>
+                                    <p>100g</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱199</p>
+                                    <hr>
+                                    <p>210g</p>
+                                </section>
+                            </section>
                             <p class="product-subtitle italicText">Available in 30g, 80g, 100g, and 210g</p>
                         </section>
                     </a>
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/Assorted Chips.png" 
                              alt="Banana Chips (30g) - Original, Herbs & Spices, Cinnamon Sugar" 
                              class="product-image gap1 bottomless">
                         <section class="product-content">
                             <article class="product-title">Assorted Sampler Pack</article>
-                            <p class="product-subtitle gap3 topless">Lorem ipsum</p>
+                            <hr>
+                            <p class="product-subtitle">A curated selection of our three (3) most-loved flavors in one convenient bundle.</p>
+                            <section class="PriceXlist threeItems">
+                                <section class="price">
+                                    <p>₱89</p>
+                                    <hr>
+                                    <p>Original</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱99</p>
+                                    <hr>
+                                    <p>Herbs & Spices</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱115</p>
+                                    <hr>
+                                    <p>Cinnamon Sugar</p>
+                                </section>
+                                <section class="price startAtGrid2">
+                                    <p>₱100</p>
+                                    <hr>
+                                    <p>Assorted</p>
+                                </section>
+                            </section>
                             <p class="product-subtitle italicText">Available in 30g each flavor</p>
                         </section>
                     </a>
-                    <a onclick="app.linkInteractions.PeddlrError(event, 'Please use a mobile device when ordering.')" href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
+                    <a href="https://v5.peddlr.io/store/gingerfarms-market-1550457" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/BananaChips.png" 
                              alt="Banana Chips (80g)- Original, Herbs & Spices, Cinnamon Sugar" 
                              class="product-image gap1 bottomless">
                         <section class="product-content">
                             <article class="product-title">Banana Trio</article>
-                            <p class="product-subtitle gap3 topless">Lorem ipsum</p>
+                            <hr>
+                            <p class="product-subtitle gap3 topless">The Banana Trio offers the perfect balance of sweet, spice, and savory to satisfy every craving."</p>
+                            <section class="PriceXlist threeItems">
+                                <section class="price">
+                                    <p>₱220</p>
+                                    <hr>
+                                    <p>Original</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱250</p>
+                                    <hr>
+                                    <p>Herbs & Spices</p>
+                                </section>
+                                <section class="price">
+                                    <p>₱280</p>
+                                    <hr>
+                                    <p>Cinnamon Sugar</p>
+                                </section>
+                                <section class="price startAtGrid2">
+                                    <p>₱250</p>
+                                    <hr>
+                                    <p>Assorted</p>
+                                </section>
+                            </section>
                             <p class="product-subtitle italicText">Available in 80g each flavor</p>
                         </section>
                     </a>
@@ -166,5 +281,8 @@
                     <a class="gap1 button" href="../Products.html">SHOP NOW</a>
                 </section>
         </footer>
+        <article class="garamond b copyright">
+            <h1>Copyright © 2026 GingerFarms. All rights reserved.</h1>
+        </article>
     </body>
 </html>
