@@ -875,6 +875,12 @@ footer > * {
 
 /* Mobile responsiveness */
 
+@media screen and (max-width: 1600px) {
+  #FourMoreProducts.needMoreSpace {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 1140px) {
   #FourMoreProducts {
     grid-template-columns: 1fr 1fr 1fr;  /* Three columns on medium screens */
