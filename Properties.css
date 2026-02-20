@@ -909,7 +909,9 @@ footer > * {
 @media screen and (max-width: 768px) {
   #homePage { display: none; }
   .split { flex-direction: column; }
-  #logo { width: 0; padding: 0; margin: 0; }
+  nav { flex-direction: column; height: 7rem;}
+  nav li { height: 3rem; }
+  #logo {height: 4.5rem; margin: 0 auto;}
   nav > ul {
     width: 100%;
     max-width: none;
