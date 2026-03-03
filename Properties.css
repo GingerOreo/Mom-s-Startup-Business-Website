@@ -93,7 +93,7 @@ body {
 .Grid4x4 {
   display: grid;
   margin: auto;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 5rem;
   width: 75%;
 }
@@ -252,15 +252,19 @@ nav a.opened {
   cursor: default;
 }
 
+#home-tab {
+  background-color: #c0cfb3;
+}
+
 nav a:hover {
   transform: scale(1.025);
-  background-color: #eeeee6;
+  background-color: #eeeee6 !important;
   color: #3f3e3e;
 }
 
 nav a:active {
   transform: scale(1.1);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) !important;
   color: #ffffff;
   transition: all 0.02s ease-in;
 }
@@ -432,6 +436,7 @@ a.button:active {
 .w100 { width: var(--w100); }
 .vh100 { height: var(--vh100); }
 .f15 { font-size: var(--f15); }
+.f17 { font-size: 1.0625rem;}
 .f20 { font-size: clamp(.9rem, 2.3vw, 1.25rem); }
 .f25 { font-size: var(--f25); }
 .f30 { font-size: var(--f30); }
@@ -444,7 +449,7 @@ a.button:active {
 .navLinks, nav button {
   font-family: "Times New Roman", serif;
   font-optical-sizing: auto;
-  font-size: clamp(.8rem, 2vw, 1.5rem);
+  font-size: clamp(.65rem, 2vw, 1.5rem);
   font-style: normal;
   font-weight: 1000;
 }
@@ -636,14 +641,14 @@ hr {
   width: clamp(5rem, 20vw, 7rem);
 }
 
-#FourMoreProducts .PriceXlist.twoItems {
+.FourMoreProducts .PriceXlist.twoItems {
   grid-template-columns: repeat(2, 1fr);
 }
-#FourMoreProducts .PriceXlist.twoItems > .price {
+.FourMoreProducts .PriceXlist.twoItems > .price {
   width: clamp(3rem, 20vw, 4rem);
 }
 
-#FourMoreProducts .PriceXlist.twoItems > .price.width75 {
+.FourMoreProducts .PriceXlist.twoItems > .price.width75 {
   width: 75%;
 }
 
@@ -664,14 +669,14 @@ hr {
   font-weight: 400;
 }
 
-#FourMoreProducts {
+.FourMoreProducts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: .8rem;
   margin: 1rem;
 }
 
-#FourMoreProducts.jamsSelection > .product-button {
+.FourMoreProducts.jamsSelection > .product-button {
   width: 75%; max-width: 25rem;  /* Full width but caps at 400px */
 }
 
@@ -746,6 +751,72 @@ hr {
   background: #FFA500;
   color: black;
 }
+
+/* For the 'go-to-button */
+.go-to-button {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  place-items: center;
+  margin: 0 auto;
+  width: 40vw;
+  height: 11vh;
+  max-height: 5rem;
+  max-width: 20rem;
+  background-image: linear-gradient(to right, rgb(255, 255, 223), rgb(243, 243, 43));
+  background-size: 200% auto;
+  background-position: left center;
+  border-radius: 10rem;
+  transition: all .1s ease;
+}
+
+.go-to-button img {
+  width: 100%;
+  margin: auto 0 auto 50%;
+}
+
+.go-to-button h2 {
+  font-size: clamp(0.6rem, 3vw, 1.4rem);
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 200;
+  color: rgb(89, 89, 89);
+  line-height: 1.1rem;
+}
+
+.go-to-button h1 {
+  font-size: clamp(0.8rem, 4vw, 2rem);
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  font-weight: 500;
+  color:#116634;
+}
+
+.go-to-button > img, .go-to-button > section {
+  display: inline-block;
+}
+
+.go-to-button:hover {
+  background-image: linear-gradient(to right, rgb(243, 243, 43), rgb(255, 255, 223));
+  transform: scale(1.02);
+  background-size: 100% auto;
+  background-position: right center;
+  cursor: pointer;
+}
+
+.go-to-button:active {
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 210));
+  transform: scale(.98);
+  background-position: left center;
+  cursor: pointer;
+}
+
+.go-to-button:active * {
+  color: white;
+  filter: brightness(0) invert(1)
+}
+
+.
 
 /* For the non-clickable labels */
 .brand{
@@ -848,6 +919,20 @@ a.brand__link.opened.SmokedFish, a.brand__link.opened.MarinatedFish {
   outline-offset: 2px;         /* Adds 2px space between outline and element */
 }
 
+.textLink {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.textLink:hover {
+  color: rgb(98, 98, 255);
+}
+
+.textLink:active {
+  color: rgb(222, 222, 255);
+}
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
@@ -859,6 +944,7 @@ footer {
 footer > * {
   justify-self: center;
   align-self: center;
+  margin: 0 1rem;
 }
 
 #MountainImage {
@@ -876,16 +962,16 @@ footer > * {
 /* Mobile responsiveness */
 
 @media screen and (max-width: 1600px) {
-  #FourMoreProducts.needMoreSpace {
+  .FourMoreProducts.needMoreSpace {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 1140px) {
-  #FourMoreProducts {
+  .FourMoreProducts {
     grid-template-columns: 1fr 1fr 1fr;  /* Three columns on medium screens */
   }
-  #FourMoreProducts.needMoreSpace {
+  .FourMoreProducts.needMoreSpace {
     grid-template-columns: 1fr 1fr;
   }
   .product-image-container {
@@ -919,7 +1005,7 @@ footer > * {
   }
   nav li:last-child { margin-right: 0; }
 
-  #products.Grid4x4 {
+  .products.Grid4x4 {
     column-gap: 0;
     row-gap: 3rem;
     width: 90%;
@@ -935,7 +1021,7 @@ footer > * {
   #SpecificProductList > a {
     margin: .5rem auto;
   }
-  #FourMoreProducts {
+  .FourMoreProducts {
     grid-template-columns: 1fr 1fr;  /* Two columns on small screens */
   }
   .product-image-container {
@@ -962,7 +1048,7 @@ footer > * {
     width: 80%;
     margin: 0 auto;
   }
-  #FourMoreProducts.needMoreSpace {
+  .FourMoreProducts.needMoreSpace {
     grid-template-columns: 1fr;
   }
   .product-button { max-width: 100%; }     /* Full width on mobile */
@@ -1018,7 +1104,7 @@ footer > * {
   .product-image-container {
     height: clamp(7rem, 25vw, 8rem);  /* Fixed height of 200px on smaller screens */
   }
-  #FourMoreProducts {
+  .FourMoreProducts {
     grid-template-columns: 1fr;  /* Two columns on small screens */
   }
   .product-num {

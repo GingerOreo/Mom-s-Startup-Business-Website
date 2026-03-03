@@ -11,20 +11,20 @@
         <meta name="theme-color" content="#f19d23">
 
         <!-- CANONICAL URL -->
-        <link rel="canonical" href="https://staging.gingerfarms.ph/ProductPage/MarinatedFish.html">
+        <link rel="canonical" href="https://gingerfarms.ph/ProductPage/MarinatedFish.html">
         
         <!-- OPEN GRAPH (SOCIAL MEDIA) -->
         <meta property="og:title" content="Marinated Fish Products - GingerFarms">
         <meta property="og:description" content="Discover GingerFarms' authentic marinated fish products, including Daing Galunggong, Bangus, and Alumahan. All-natural, no preservatives, perfect for any meal!">
-        <meta property="og:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
-        <meta property="og:url" content="https://staging.gingerfarms.ph/ProductPage/MarinatedFish.html">
+        <meta property="og:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta property="og:url" content="https://gingerfarms.ph/ProductPage/MarinatedFish.html">
         <meta property="og:type" content="website">
 
         <!-- TWITTER CARDS -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Marinated Fish Products - GingerFarms">
         <meta name="twitter:description" content="Discover GingerFarms' authentic marinated fish products, including Daing Galunggong, Bangus, and Alumahan. All-natural, no preservatives, perfect for any meal!">
-        <meta name="twitter:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta name="twitter:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
 
         <!-- STRUCTURED DATA (JSON-LD) -->
         <script type="application/ld+json">
@@ -33,7 +33,7 @@
         "@type": "WebPage",
         "name": "Marinated Fish Products - GingerFarms",
         "description": "Discover GingerFarms' authentic marinated fish products, including Daing Galunggong, Bangus, and Alumahan. All-natural, no preservatives, perfect for any meal!",
-        "url": "https://staging.gingerfarms.ph/ProductPage/MarinatedFish.html"
+        "url": "https://gingerfarms.ph/ProductPage/MarinatedFish.html"
         }
         </script>
 
@@ -60,8 +60,16 @@
                 </section>
             </section>
             <ul class="navLinks b">
-                <li><a href="../Home.html">Home</a></li>
-                <li><a href="../Gift Ideas.html">Gift Ideas</a></li>
+                <li><a id='home-tab' href="../Home.html">Home</a></li>
+                <li><section class="dropdown">
+                        <button class="dropbtn"><span class="w80 center">Gift Ideas</span></button>
+                        <section class="dropdown-content">
+                            <a href="../gift-ideas/sampler-packs.html">Sampler Packs</a>
+                            <a href="../gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="../gift-ideas/gift-pouches.html" class="ComingSoon">Ready-to-Gift Pouches</a>
+                        </section>
+                    </section>
+                </li>
                 <li><section class="dropdown">
                         <button class="dropbtn OpenProductPage"><span class="w80 center">Our Products</span></button>
                         <section class="dropdown-content">
@@ -69,7 +77,8 @@
                             <a href="FruitJars.html">Fruit-in-a-jar</a>
                             <a href="HerbalTeas.html">Herbal Teas</a>
                             <a class="opened">Smoked & Dried Fish</a>
-                            <a href="../Gift Ideas.html">Amara Collection</a>
+                            <a href="../gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="../gift-ideas/sampler-packs.html">Sampler Packs</a>
                             <a class="ComingSoon">Coconut-based Products</a>
                             <a class="ComingSoon">Farm Coffee</a>
                         </section>
@@ -135,7 +144,7 @@
                         </a>
                     </section>
                 </section>
-                <section id="FourMoreProducts" class="wFull gap2 topless">
+                <section class="FourMoreProducts wFull gap2 topless">
                     <a href="https://forms.gle/mk7dywnqhyGVVgVZ9" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/placeholder.jpg" 
                              alt="Daing Galunggong (Marinated Round Scad)" 
@@ -176,16 +185,19 @@
             </section>
         </main>
         <footer>
-            <article class="gap1 garamond b">Stay updated — like and follow us!</article>
-                <ul class="Iconless garamond b">
-                    <li class="FBIcon"><a class="contact link" href="https://www.facebook.com/profile.php?id=61572520380627" target="_blank" rel="noopener noreferrer">GingerFarms</a></li>
-                    <li class="EmailIcon"><a class="contact link" href="mailto:hello.gingerfarms@gmail.com" target="_blank" rel="noopener noreferrer">hello.gingerfarms@gmail.com</a></li>
-                    <li class="InstaIcon"><a class="contact link" href="https://www.instagram.com/hello.gingerfarms/?fbclid=IwY2xjawLLP_tleHRuA2FlbQIxMABicmlkETFLMHZpZk5Wb1pFUzliODNMAR7dwhhcpzwYn6aovO02zSdjBT74-8FQQzUfj6OtITC9_91pr02wyyRLMD_Oiw_aem_YcXxz7Np_CXETZm3SkeOEQ" target="_blank" rel="noopener noreferrer">hello.gingerfarms</a></li>
-                </ul>
-                <section class="column sideMargin3">
-                    <a class="gap1 button bottomless" href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">JOIN COMMUNITY</a>
-                    <a class="gap1 button" href="../index.html">SHOP NOW</a>
-                </section>
+            <article class="gap1 garamond b">
+                <p>Stay updated — like and follow us!</p>
+                <p class="f17">Interested in becoming a reseller? <a class='textLink' href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join our Community!</a></p>
+            </article>
+            <ul class="Iconless garamond b">
+                <li class="FBIcon"><a class="contact link" href="https://www.facebook.com/profile.php?id=61572520380627" target="_blank" rel="noopener noreferrer">GingerFarms</a></li>
+                <li class="EmailIcon"><a class="contact link" href="mailto:hello.gingerfarms@gmail.com" target="_blank" rel="noopener noreferrer">hello.gingerfarms@gmail.com</a></li>
+                <li class="InstaIcon"><a class="contact link" href="https://www.instagram.com/hello.gingerfarms/?fbclid=IwY2xjawLLP_tleHRuA2FlbQIxMABicmlkETFLMHZpZk5Wb1pFUzliODNMAR7dwhhcpzwYn6aovO02zSdjBT74-8FQQzUfj6OtITC9_91pr02wyyRLMD_Oiw_aem_YcXxz7Np_CXETZm3SkeOEQ" target="_blank" rel="noopener noreferrer">hello.gingerfarms</a></li>
+            </ul>
+            <section class="column sideMargin3">
+                <a class="gap1 button bottomless" href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">JOIN COMMUNITY</a>
+                <a class="gap1 button" href="../index.html">SHOP NOW</a>
+            </section>
         </footer>
         <article class="garamond b copyright">
             <h1>Copyright © 2026 GingerFarms. All rights reserved.</h1>
