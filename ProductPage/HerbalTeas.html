@@ -11,20 +11,20 @@
         <meta name="theme-color" content="#f19d23">
 
         <!-- CANONICAL URL -->
-        <link rel="canonical" href="https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html">
+        <link rel="canonical" href="https://gingerfarms.ph/ProductPage/HerbalTeas.html">
         
         <!-- OPEN GRAPH (SOCIAL MEDIA) -->
         <meta property="og:title" content="Herbal Tea Products - GingerFarms">
         <meta property="og:description" content="Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.">
-        <meta property="og:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
-        <meta property="og:url" content="https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html">
+        <meta property="og:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta property="og:url" content="https://gingerfarms.ph/ProductPage/HerbalTeas.html">
         <meta property="og:type" content="website">
 
         <!-- TWITTER CARDS -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Herbal Tea Products - GingerFarms">
         <meta name="twitter:description" content="Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.">
-        <meta name="twitter:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta name="twitter:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
 
         <!-- STRUCTURED DATA (JSON-LD) -->
         <script type="application/ld+json">
@@ -33,7 +33,7 @@
         "@type": "WebPage",
         "name": "Herbal Tea Products - GingerFarms",
         "description": "Experience the warmth and purity of our Signature Herbal Teas. Each sachet delivers bold flavor, smooth texture, and natural wellness benefits.",
-        "url": "https://staging.gingerfarms.ph/ProductPage/HerbalTeas.html"
+        "url": "https://gingerfarms.ph/ProductPage/HerbalTeas.html"
         }
         </script>
         
@@ -60,8 +60,16 @@
                 </section>
             </section>
             <ul class="navLinks b">
-                <li><a href="../Home.html">Home</a></li>
-                <li><a href="../Gift Ideas.html">Gift Ideas</a></li>
+                <li><a id='home-tab' href="../Home.html">Home</a></li>
+                <li><section class="dropdown">
+                        <button class="dropbtn"><span class="w80 center">Gift Ideas</span></button>
+                        <section class="dropdown-content">
+                            <a href="../gift-ideas/sampler-packs.html">Sampler Packs</a>
+                            <a href="../gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="../gift-ideas/gift-pouches.html" class="ComingSoon">Ready-to-Gift Pouches</a>
+                        </section>
+                    </section>
+                </li>
                 <li><section class="dropdown">
                         <button class="dropbtn OpenProductPage"><span class="w80 center">Our Products</span></button>
                         <section class="dropdown-content">
@@ -69,7 +77,8 @@
                             <a href="FruitJars.html">Fruit-in-a-jar</a>
                             <a href="" class="opened">Herbal Teas</a>
                             <a href="SmokedFish.html">Smoked & Dried Fish</a>
-                            <a href="../Gift Ideas.html">Amara Collection</a>
+                            <a href="../gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="../gift-ideas/sampler-packs.html">Sampler Packs</a>
                             <a class="ComingSoon">Coconut-based Products</a>
                             <a class="ComingSoon">Farm Coffee</a>
                         </section>
@@ -98,7 +107,7 @@
                         <li>Available in 8g (Balanced Blend) and 10g (Full-strength) packs.</li>
                     </ul>
                 </section>
-                <section id="FourMoreProducts" class="wFull gap2 topless teasSelection">
+                <section class="FourMoreProducts wFull gap2 topless teasSelection">
                     <!--Coming Soon (175g in jars)-->
                     <a href="https://forms.gle/mk7dywnqhyGVVgVZ9" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/PureGinger.png" 
@@ -107,7 +116,7 @@
                         <section class="product-content">
                             <h1 class="product-title">Ginger Pure (Salabat)</h1>
                             <hr class="gap3 topless">
-                            <p class="product-subtitle gap3 topless">Strong, aromatic, and fast-dissolving. Perfect for wellness and daily comfort.</p>
+                            <p class="product-subtitle gap3 topless">Strong and aromatic. The original blend in its purest form!</p>
                             <section class="PriceXlist twoItems">
                                 <section class="price">
                                     <p>₱16</p>
@@ -239,26 +248,8 @@
                         </section>
                     </a>
                     <a href="https://forms.gle/mk7dywnqhyGVVgVZ9" target="_blank" rel="noopener noreferrer" class="product-button">
-                        <img src="../images/TeaSamplerPack.png" 
-                             alt="Lorem Ipsum" 
-                             class="product-image">
-                        <section class="product-content">
-                            <article class="product-title">Sampler Pack</article>
-                            <hr class="gap3 topless">
-                            <p class="product-subtitle gap3 topless">A perfect introduction to GingerFarms' Signature Herbal Teas. Comes with 5 sachets of assorted all-ginger variants for first-time buyers, giveaways, and trial gifting.</p>
-                            <!--Next time, maybe a 6 or 9-sachet-->
-                            <section class="price">₱100</section>
-                            <p class="product-subtitle italicText">
-                                <ul>
-                                    <li class="product-subtitle"><b>5 sachets (10g) :</b> Ginger Pure (Salabat), Ginger with Honey, Ginger with Moringa, Ginger with Oregano, Ginger with Turmeric</li>
-                                    <li class="product-subtitle"><b>4 sachets (10g) :</b> Pure Turmeric</li>
-                                </ul>
-                            </p>
-                        </section>
-                    </a>
-                    <a href="https://forms.gle/mk7dywnqhyGVVgVZ9" target="_blank" rel="noopener noreferrer" class="product-button">
                         <img src="../images/placeholder.jpg" 
-                             alt="Lorem Ipsum" 
+                             alt="Herbal Tea Gift Pouch" 
                              class="product-image">
                         <section class="product-content">
                             <article class="product-title">Gift Pouch</article>
@@ -297,19 +288,29 @@
                         </section>
                     </a>
                 </section>
+                <a class="go-to-button gap1 bottomless" href="../gift-ideas/sampler-packs.html">
+                    <img src="../images/AmabellaIcon.png" alt="Go to Sampler Packs" class="brand-logo">
+                    <section>
+                        <h2>Visit our</h2>
+                        <h1>Sampler Packs</h1>
+                    </section>
+                </a>
             </section>
         </main>
         <footer>
-            <article class="gap1 garamond b">Stay updated — like and follow us!</article>
-                <ul class="Iconless garamond b">
-                    <li class="FBIcon"><a class="contact link" href="https://www.facebook.com/profile.php?id=61572520380627" target="_blank" rel="noopener noreferrer">GingerFarms</a></li>
-                    <li class="EmailIcon"><a class="contact link" href="mailto:hello.gingerfarms@gmail.com" target="_blank" rel="noopener noreferrer">hello.gingerfarms@gmail.com</a></li>
-                    <li class="InstaIcon"><a class="contact link" href="https://www.instagram.com/hello.gingerfarms/?fbclid=IwY2xjawLLP_tleHRuA2FlbQIxMABicmlkETFLMHZpZk5Wb1pFUzliODNMAR7dwhhcpzwYn6aovO02zSdjBT74-8FQQzUfj6OtITC9_91pr02wyyRLMD_Oiw_aem_YcXxz7Np_CXETZm3SkeOEQ" target="_blank" rel="noopener noreferrer">hello.gingerfarms</a></li>
-                </ul>
-                <section class="column sideMargin3">
-                    <a class="gap1 button bottomless" href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">JOIN COMMUNITY</a>
-                    <a class="gap1 button" href="../index.html">SHOP NOW</a>
-                </section>
+            <article class="gap1 garamond b">
+                <p>Stay updated — like and follow us!</p>
+                <p class="f17">Interested in becoming a reseller? <a class='textLink' href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join our Community!</a></p>
+            </article>
+            <ul class="Iconless garamond b">
+                <li class="FBIcon"><a class="contact link" href="https://www.facebook.com/profile.php?id=61572520380627" target="_blank" rel="noopener noreferrer">GingerFarms</a></li>
+                <li class="EmailIcon"><a class="contact link" href="mailto:hello.gingerfarms@gmail.com" target="_blank" rel="noopener noreferrer">hello.gingerfarms@gmail.com</a></li>
+                <li class="InstaIcon"><a class="contact link" href="https://www.instagram.com/hello.gingerfarms/?fbclid=IwY2xjawLLP_tleHRuA2FlbQIxMABicmlkETFLMHZpZk5Wb1pFUzliODNMAR7dwhhcpzwYn6aovO02zSdjBT74-8FQQzUfj6OtITC9_91pr02wyyRLMD_Oiw_aem_YcXxz7Np_CXETZm3SkeOEQ" target="_blank" rel="noopener noreferrer">hello.gingerfarms</a></li>
+            </ul>
+            <section class="column sideMargin3">
+                <a class="gap1 button bottomless" href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">JOIN COMMUNITY</a>
+                <a class="gap1 button" href="../index.html">SHOP NOW</a>
+            </section>
         </footer>
         <article class="garamond b copyright">
             <h1>Copyright © 2026 GingerFarms. All rights reserved.</h1>

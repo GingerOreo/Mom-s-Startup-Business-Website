@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
+        <!--IMPORTANT: Change all file and folder names to remove spaces and capitalizations-->
+
         <!--Initialization-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +14,20 @@
         <meta name="theme-color" content="#f19d23">
 
         <!-- CANONICAL URL -->
-        <link rel="canonical" href="https://staging.gingerfarms.ph/index.html">
+        <link rel="canonical" href="https://gingerfarms.ph">
         
         <!-- OPEN GRAPH (SOCIAL MEDIA) -->
         <meta property="og:title" content="GingerFarms">
         <meta property="og:description" content="Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.">
-        <meta property="og:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
-        <meta property="og:url" content="https://staging.gingerfarms.ph/index.html">
+        <meta property="og:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta property="og:url" content="https://gingerfarms.ph">
         <meta property="og:type" content="website">
 
         <!-- TWITTER CARDS -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="GingerFarms">
             <meta name="twitter:description" content="Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.">
-        <meta name="twitter:image" content="https://staging.gingerfarms.ph/images/OpenGraph Icon.png">
+        <meta name="twitter:image" content="https://gingerfarms.ph/images/OpenGraph Icon.png">
 
         <!-- STRUCTURED DATA (JSON-LD) -->
         <script type="application/ld+json">
@@ -33,7 +36,7 @@
         "@type": "WebPage",
         "name": "GingerFarms",
         "description": "Discover GingerFarms' diverse range of products including banana chips, fruit-in-a-jar jams, herbal teas, and smoked & dried fish. Rooted in wellness and grown with purpose.",
-        "url": "https://staging.gingerfarms.ph/index.html"
+        "url": "https://gingerfarms.ph"
         }
         </script>
         
@@ -60,15 +63,25 @@
                 </section>
             </section>
             <ul class="navLinks b">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Gift Ideas.html">Gift Ideas</a></li>
+                <li><a id='home-tab' href="home.html">Home</a></li>
+                <li><section class="dropdown">
+                        <button class="dropbtn"><span class="w80 center">Gift Ideas</span></button>
+                        <section class="dropdown-content">
+                            <a href="gift-ideas/sampler-packs.html">Sampler Packs</a>
+                            <a href="gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="gift-ideas/gift-pouches.html" class="ComingSoon">Ready-to-Gift Pouches</a>
+                        </section>
+                    </section>
+                </li>
                 <li><section class="dropdown">
                         <button class="dropbtn"><span class="w80 center">Our Products</span></button>
                         <section class="dropdown-content">
                             <a href="ProductPage/BananaChips.html">Banana Chips</a>
-                            <a href="FruitJars.html">Fruit-in-a-jar</a>
+                            <a href="ProductPage/FruitJars.html">Fruit-in-a-jar</a>
                             <a href="ProductPage/HerbalTeas.html">Herbal Teas</a>
                             <a href="ProductPage/SmokedFish.html">Smoked & Dried Fish</a>
+                            <a href="gift-ideas/amara-collection.html">The Amara Collection</a>
+                            <a href="gift-ideas/sampler-packs.html">Sampler Packs</a>
                             <a class="ComingSoon">Coconut-based Products</a>
                             <a class="ComingSoon">Farm Coffee</a>
                         </section>
@@ -84,7 +97,28 @@
                     <h4 class="garamond b bottomless">Our Products</h4>
                     <h4 class="garamond topless">Rooted in Wellness. Grown with Purpose.</h4>
                 </section>
-                <section id="products" class="Grid4x4 gap1 topless">
+                <section class="Grid4x4 gap1 topless products">
+                    <a href="gift-ideas/amara-collection.html" class="product-button">
+                        <img src="images/GiftBag1.png" 
+                             alt="The Amara Collection"
+                             class="product-image">
+                        <section class="product-content">
+                            <article class="product-title">AMARA COLLECTION</article>
+                            <p class="product-subtitle">Curated Gift Boxes for yours truly!</p>
+                        </section>
+                    </a>
+                    <a href="Gift Ideas/SamplerPacks.html" class="product-button">
+                        <img src="images/TeaSamplerPack.png" 
+                             alt="Sampler Packs"
+                             class="product-image">
+                        <section class="product-content">
+                            <article class="product-title">SAMPLER PACKS</article>
+                            <p class="product-subtitle">Come have a taste!</p>
+                        </section>
+                    </a>
+                </section>
+                <hr class="gap1 topless">
+                <section class="Grid4x4 gap1 topless products">
                     <a href="ProductPage/BananaChips.html" class="product-button"; return false;>
                         <img src="images/BananaChips.png" 
                                 alt="Banana Chips - Original, Herbs & Spices, Cinnamon Sugar" 
@@ -121,15 +155,6 @@
                             <p class="product-subtitle">Marinated Bangus, Smoked Salinas, and many more!</p>
                         </section>
                     </a>
-                    <a href="Gift Ideas.html" class="product-button">
-                        <img src="images/GiftBag1.png" 
-                             alt="Amara Collection"
-                             class="product-image">
-                        <section class="product-content">
-                            <article class="product-title">AMARA COLLECTION</article>
-                            <p class="product-subtitle">Curated Gift Boxes for yours truly!</p>
-                        </section>
-                    </a>
                     <a class="product-button ComingSoon">
                         <img src="images/ComingSoon_PureCoconut Collection.png" 
                              alt="Coconut-Based Products (Coming Soon)" 
@@ -152,7 +177,10 @@
             </section>
         </main>
         <footer>
-            <article class="gap1 garamond b">Stay updated — like and follow us!</article>
+            <article class="gap1 garamond b">
+                <p>Stay updated — like and follow us!</p>
+                <p class="f17">Interested in becoming a reseller? <a class='textLink' href="https://docs.google.com/forms/d/e/1FAIpQLSca40wn_p0pJpAt7GXXtlkncfIOhTD7uhO2WCWJztKmoYy3bg/viewform" target="_blank" rel="noopener noreferrer">Join our Community!</a></p>
+            </article>
             <ul class="Iconless garamond b">
                 <li class="FBIcon"><a class="contact link" href="https://www.facebook.com/profile.php?id=61572520380627">GingerFarms</a></li>
                 <li class="EmailIcon"><a class="contact link" href="mailto:hello.gingerfarms@gmail.com" target="_blank" rel="noopener noreferrer">hello.gingerfarms@gmail.com</a></li>
