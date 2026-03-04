@@ -816,8 +816,6 @@ hr {
   filter: brightness(0) invert(1)
 }
 
-.
-
 /* For the non-clickable labels */
 .brand{
   display: block;
