@@ -959,7 +959,7 @@ footer > * {
 
 /* Mobile responsiveness */
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1140px) {
   .FourMoreProducts.needMoreSpace {
     grid-template-columns: 1fr 1fr 1fr;
   }
